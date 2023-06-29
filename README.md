@@ -1,19 +1,19 @@
 ## Install
 
 ```bash
-npm install aitools
+npm install ai-tools-sdk
 ```
 
 OR
 
 ```bash
-yarn add aitools
+yarn add ai-tools-sdk
 ```
 
 ## Usage
 
 ```jsx
-import AITools from 'aitools';
+import AITools from 'ai-tools-sdk';
 
 const App = () => {
 
