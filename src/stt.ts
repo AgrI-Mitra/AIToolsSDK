@@ -25,9 +25,9 @@ export async function stt(
     if (resp.ok && rsp_data !== null) {
       return rsp_data.data.source;
     } else {
-      return console.error(rsp_data);
+      throw rsp_data;
     }
   } catch (err) {
-    return console.error(err);
+    throw err;
   }
 }

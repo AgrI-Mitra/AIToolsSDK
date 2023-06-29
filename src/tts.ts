@@ -54,9 +54,9 @@ export async function tts(
       }
     } else {
       const errorData = await ttsResp.json();
-      return console.error(errorData.message);
+      throw errorData.message;
     }
   } catch (error) {
-    return console.error(error);
+    throw error;
   }
 }

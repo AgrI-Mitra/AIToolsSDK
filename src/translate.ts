@@ -21,9 +21,9 @@ export async function translate(TRANSLATION_MODEL_ID: string, TEXT: string) {
     if (translationResp.ok) {
       return rsp_data.output[0].target;
     } else {
-      return console.error(rsp_data);
+      throw rsp_data;
     }
   } catch (err) {
-    return console.error(err);
+    throw err;
   }
 }

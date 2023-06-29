@@ -72,6 +72,6 @@ export async function stn(
     const translated_txt = await translate(TRANSLATION_MODEL_ID, txt);
     return wordToNumber(translated_txt);
   }catch(err){
-    return console.error(err);
+    throw err;
   }
 }
