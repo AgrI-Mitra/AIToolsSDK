@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "AI Tools SDK",
   "keywords": [
     "Samagra",
@@ -40,7 +40,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "ai-tools-sdk",
+  "name": "aitools",
   "repository": {
     "type": "git",
     "url": "https://github.com/AgrI-Mitra/AIToolsSDK"
