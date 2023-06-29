@@ -1,7 +1,14 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI Tools SDK",
-  "keywords": ["Samagra", "AI Tools", "Speech to text", "Text to speech", "Speech to number", "translate"],
+  "keywords": [
+    "Samagra",
+    "AI Tools",
+    "Speech to text",
+    "Text to speech",
+    "Speech to number",
+    "translate"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
