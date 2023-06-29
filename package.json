@@ -1,5 +1,7 @@
 {
   "version": "0.1.0",
+  "description": "AI Tools SDK",
+  "keywords": ["Samagra", "AI Tools", "Speech to text", "Text to speech", "Speech to number", "translate"],
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -32,6 +34,7 @@
     "trailingComma": "es5"
   },
   "name": "aitoolssdk",
+  "git repository": "https://github.com/AgrI-Mitra/AIToolsSDK",
   "author": "Prateek Jakhar",
   "module": "dist/aitoolssdk.esm.js",
   "size-limit": [
