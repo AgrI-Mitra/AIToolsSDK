@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "AI Tools SDK",
   "keywords": [
     "Samagra",
@@ -40,8 +40,11 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "aitoolssdk",
-  "git repository": "https://github.com/AgrI-Mitra/AIToolsSDK",
+  "name": "ai-tools-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgrI-Mitra/AIToolsSDK"
+  },
   "author": "Prateek Jakhar",
   "module": "dist/aitoolssdk.esm.js",
   "size-limit": [
